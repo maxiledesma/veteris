@@ -1,0 +1,16 @@
+{
+  "name": "veteris",
+  "version": "1.0.0",
+  "description": "Retro styled CSS frameworks",
+  "license": "MIT",
+  "repository": "maxiledesma/veteris",
+  "main": "index.html",
+  "keywords": [
+    "css",
+    "retro",
+    "old school",
+    "vintag",
+    "8bit",
+    "nes"
+  ]
+}
