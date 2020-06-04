@@ -27,5 +27,38 @@ html {
 }
 body.pixel-perfect {
   font-family: 'VT323', monospace;
+  font-size: 1.6rem;
+}
+body.pixel-perfect h1,
+body.pixel-perfect h2,
+body.pixel-perfect h3,
+body.pixel-perfect h4,
+body.pixel-perfect h5,
+body.pixel-perfect h6 {
+  font-weight: 400;
+}
+body.pixel-perfect form * {
+  font-family: 'VT323', monospace;
+  font-size: 1.6rem;
+}
+.v-form .v-btn.v-action.v-primary {
+  padding: 5px 25px;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+  border-radius: 4px;
+  border-width: 4px;
+  border-color: #b2b2b2 #000000 #000000 #b2b2b2;
+  border-style: solid;
+  outline: none;
+  font-size: 1.2rem;
+  background-color: #7f7f7f;
+  color: white;
+}
+.v-form .v-btn.v-action.v-primary:hover {
+  background-color: #7f7f7f;
+}
+.v-form .v-btn.v-action.v-primary:active {
+  border-color: #000000 #b2b2b2 #b2b2b2 #000000;
+  padding: 7px 23px 3px 27px;
+  border-width: 5px 3px 3px 5px;
 }
 /*# sourceMappingURL=veteris.css.map */

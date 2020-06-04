@@ -1,0 +1,31 @@
+.v-form {
+  .v {
+    // Buttons
+    &-btn {
+      &.v-action {
+        &.v-primary {
+          padding: 5px 25px;
+          cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+          border-radius: @button__primary__border-radius;
+          border-width: @button__primary__border-width;
+          border-color: @button__primary__border-color;
+          border-style: solid;
+          outline: none;
+          font-size: @button__primary__font_size;
+          background-color: @button__primary__background_color;
+          color: white;
+
+          &:hover {
+            background-color: @button__primary__background_color-hover;
+          }
+
+          &:active {
+            border-color: @button__primary__border-color-clicked;
+            padding: 7px 23px 3px 27px;
+            border-width: @button__primary__border-width-clicked;
+          }
+        }
+      }
+    }
+  }
+}

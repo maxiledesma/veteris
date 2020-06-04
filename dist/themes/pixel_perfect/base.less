@@ -8,5 +8,22 @@ html {
 body {
   &.pixel-perfect {
     font-family: @base__font;
+    font-size: @base__font_size;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: @base__title_weight;
+    }
+
+    form {
+      * {
+        font-family: @base__font;
+        font-size: @base__font_size;
+      }
+    }
   }
 }
